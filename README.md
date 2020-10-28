@@ -1,7 +1,7 @@
 # Continous Deployment with Cloud Build & Cloud Run
 
 ## 1. Make an application & docker image
-- mkdir and cd to a project folder
+- in google cloud mkdir and cd to a project folder
 - create new project with a server file and a Dockerfile in the project folder (could be node.js server, or any type of server application) on google clou
 ![](images/1/server.png)
 ![](images/1/dockerfile.png)
