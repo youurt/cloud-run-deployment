@@ -66,18 +66,3 @@ steps:
 ![](images/5/activate.png)
 - change the server.js file and push and see if it works
 ![](images/5/test.png)
-
-
-
-
-
-
-
-
-
-```shell
-pip install foobar
-```
-
-
-![](image.png)
