@@ -17,9 +17,8 @@
 - enable cloud build api
 - connect new repo with trigger (choose github mirrored) and authenticate with oauth
 ![](images/3/mirror.png)
-
-- select repository & connect 
 ![](images/3/docker.png)
+- select repository & connect 
 - every time when google sees a commit it will run what we have configured here, this is the build configuration we need at first, later we will change this to cloud build with a yaml file
 - run trigger, the build is started 
 ## 4. Cloud run integration
