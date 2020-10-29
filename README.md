@@ -5,7 +5,6 @@
 - create new project with a server file and a Dockerfile in the project folder (could be node.js server, or any type of server application) on google cloud
 ![](images/1/server.png)
 ![](images/1/dockerfile.png)
-![](images/1/dockerfile.png)
 - the docker file should be built
 
 ## 2. Connect to github to make continuous integration
