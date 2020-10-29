@@ -1,10 +1,7 @@
 const http = require('http')
 const server = http.createServer((req, res) => {
     console.log("New Connection")
-    const time = Date.now()
-    const timeSave = []
-    timeSave.push(time)
-    res.end(timeSave)
+    res.end('TEST SERVER --- continuous deployment')
 })
 
 const PORT = process.env.PORT || 8080
