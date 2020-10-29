@@ -6,7 +6,7 @@
 
 ![](images/1/server.png)
 ![](images/1/dockerfile.png)
-- the docker file should be built
+- build an image with docker on your google cloud
 
 ## 2. Connect to github to make continuous integration
 - create a repo with the same files (server file, Dockerfile)
