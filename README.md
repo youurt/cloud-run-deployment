@@ -65,3 +65,27 @@ steps:
 ![](images/5/activate.png)
 - change the server file and push
 ![](images/5/test.png)
+
+# Creating a scheduler for the server file
+## 1. Create a service account
+- Go into the admin console https://console.cloud.google.com/projectselector2/iam-admin and select the recent project
+- create a new serviceaccount, it's important to grant this service account access "Cloud Run Invoker"
+![](images/6/service.png)
+- you can also achive this with the cli
+
+```shell
+gcloud iam service-accounts create SERVICE_ACCOUNT_ID
+
+gcloud iam service-accounts add-iam-policy-binding \
+    SERVICE_ACCOUNT_ID
+    --member "serviceAccount:SERVICE_ACCOUNT_ID@PROJECT_ID.iam.gserviceaccount.com" \
+    --role "roles/run.invoker"
+```
+## 2. Create a Cloud Scheduler job
+
+- go to https://console.cloud.google.com/cloudscheduler and create a new job
+- give the url for which the scheduler should work
+![](images/6/scheduler.png)
+- after submitting you can test the job 
+![](images/6/test.png)
+
